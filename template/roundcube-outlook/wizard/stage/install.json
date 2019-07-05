@@ -1,0 +1,29 @@
+{
+  "api_version": "v1",
+  "title": "{{ROUNDCUBE_NAME}}",
+  "wizard": [
+    {
+      "title": "{{ROUNDCUBE_BASE_PAGE}}",
+      "schema": {
+        "http_port": {
+          "title": "Roundcube HTTP Port",
+          "type": "integer",
+          "description": "{{ROUNDCUBE_HTTP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        }
+      },
+      "form": [
+        "http_port"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "http_port": "services.roundcube.ports[0]"
+    }
+  }
+}

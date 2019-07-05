@@ -22,6 +22,17 @@
         "type": "app"
     },
     {
+        "description": "Roundcube For Microsoft Outlook is a webmail client supporting POP3, IMAP and SMTP protocols. This application is pre-configured to connect to Microsoft Outlook IMAP/SMTP servers.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Roundcube For Microsoft Outlook - Webmail Client",
+        "name": "roundcube-outlook",
+        "version": "1.3.9-apache",
+        "location": "https://hub.docker.com/r/levtecaccess/roundcubemail",
+        "type": "app"
+    },
+    {
         "description": "Roundcube is a webmail client supporting POP3, IMAP and SMTP protocols.",
         "repository": "dockerhub",
         "arch": "amd64",
