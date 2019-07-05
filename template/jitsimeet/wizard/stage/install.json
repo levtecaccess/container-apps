@@ -6,20 +6,18 @@
       "title": "{{JITSIMEET_BASE_PAGE}}",
       "schema": {
         "http_port": {
-          "title": "HTTP Port",
           "type": "integer",
+          "title": "HTTP Port",
           "description": "{{JITSIMEET_HTTP_PORT_DESC}}",
-          "minimum": 1,
-          "maximum": 65535,
-          "required": true
+		  "required": true,
+          "maximum": 65535
         },
         "https_port": {
-          "title": "HTTPS Port",
           "type": "integer",
+          "title": "HTTPS Port",
           "description": "{{JITSIMEET_HTTPS_PORT_DESC}}",
-          "minimum": 1,
-          "maximum": 65535,
-          "required": true
+		  "required": true,
+          "maximum": 65535
         }
       },
       "form": [
@@ -32,12 +30,13 @@
     "file": "docker-compose.yml",
     "data": {
       "http_port": [
-        "services.web.ports[0]",
-        "services.web.environment.HTTP_PORT"
+        "web.ports[0]",
+        "web.environment.HTTP_PORT"
       ],
       "https_port": [
-        "services.web.ports[1]",
-        "services.web.environment.HTTPS_PORT"
+        "web.environment.HTTPS_PORT",
+        "web.ports[1]"
       ]
+    }
   }
 }
