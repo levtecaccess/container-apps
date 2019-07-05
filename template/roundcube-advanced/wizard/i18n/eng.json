@@ -1,5 +1,5 @@
 {
-  "ROUNDCUBE_NAME": "Roundcube For Microsoft Outlook",
+  "ROUNDCUBE_NAME": "Roundcube Advanced",
   "ROUNDCUBE_BASE_PAGE": "Configure service parameters",
   "ROUNDCUBE_HTTP_PORT_DESC": "The HTTP port for the web server. Defaults to 8040."
 }
