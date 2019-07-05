@@ -35,11 +35,11 @@
     "data": {
       "http_port": [
         "services.web.ports[0]",
-        "services.environment.HTTP_PORT"
+        "services.web.environment.HTTP_PORT"
       ],
       "https_port": [
         "services.web.ports[1]",
-        "services.environment.HTTPS_PORT"
+        "services.web.environment.HTTPS_PORT"
       ]
   }
 }
