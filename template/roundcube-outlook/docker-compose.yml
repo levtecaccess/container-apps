@@ -20,7 +20,7 @@ services:
       # - ROUNDCUBEMAIL_DB_PASSWORD=roundcubedbpass # same as mysql MYSQL_PASSWORD env name
       - ROUNDCUBEMAIL_DEFAULT_HOST=imap-mail.outlook.com # hostname of the default imap server to connect to
       - ROUNDCUBEMAIL_DEFAULT_PORT=993 # default imap server port number
-      - ROUNDCUBEMAIL_SMTP_SERVER=smtp.outlook.com # hostname of the default smtp server to send mails
+      - ROUNDCUBEMAIL_SMTP_SERVER=tls://smtp.outlook.com # hostname of the default smtp server to send mails
       - ROUNDCUBEMAIL_SMTP_PORT=587 # default smtp server port number
       - ROUNDCUBEMAIL_UPLOAD_MAX_FILESIZE=50M # maximum upload size for email attachments
     volumes:
