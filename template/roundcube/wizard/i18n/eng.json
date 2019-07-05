@@ -1,0 +1,10 @@
+{
+  "ROUNDCUBE_NAME": "Roundcube",
+  "ROUNDCUBE_BASE_PAGE": "Configure service parameters",
+  "ROUNDCUBE_HTTP_PORT_DESC": "The HTTP port for the web server. Defaults to 8040.",
+  "ROUNDCUBE_SERVER_PAGE": "Roundcube Server Configuration",
+  "ROUNDCUBE_DEFAULT_HOST_DESC": "The default hostname for the IMAP server. Defaults to imap.gmail.com.",
+  "ROUNDCUBE_DEFAULT_PORT_DESC": "The default connection port for the IMAP server. Defaults to 143.",
+  "ROUNDCUBE_DEFAULT_SMTP_SERVER_DESC": "The default hostname for the SMTP server. Defaults to smtp.gmail.com.",
+  "ROUNDCUBE_DEFAULT_SMTP_PORT_DESC": "The default connection port for the SMTP server. Defaults to 587."
+}
