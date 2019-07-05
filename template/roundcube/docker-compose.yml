@@ -3,7 +3,7 @@ version: "2"
 services:
 
   roundcube:
-    image: roundcube/roundcubemail:latest-apache
+    image: roundcube/roundcubemail:1.3.9-apache
     container_name: roundcube
     restart: always
     # depends_on:

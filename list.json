@@ -28,7 +28,7 @@
         "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
         "displayName": "Roundcube - Webmail Client",
         "name": "roundcube",
-        "version": "latest-apache",
+        "version": "1.3.9-apache",
         "location": "https://hub.docker.com/r/levtecaccess/roundcubemail",
         "type": "app"
     },
