@@ -67,7 +67,6 @@
       "default_port": "services.roundcube.environment.ROUNDCUBEMAIL_DEFAULT_PORT",
       "smtp_server": "services.roundcube.environment.ROUNDCUBEMAIL_SMTP_SERVER",
       "smtp_port": "services.roundcube.environment.ROUNDCUBEMAIL_SMTP_PORT"
-    },
-    "template": ["*.tpl"]
+    }
   }
 }
