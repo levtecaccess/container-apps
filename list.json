@@ -1,12 +1,34 @@
 [
     {
+        "description": "Squid is a fully featured proxy server featuring a web interface for configuration.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Squid - Proxy Server",
+        "name": "squid",
+        "version": "3.5.27-1",
+        "location": "https://hub.docker.com/r/sameersbn/squid",
+        "type": "app"
+    },
+    {
+        "description": "Roundcube is a webmail client supporting POP3, IMAP and SMTP protocols.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Roundcube - Webmail Client",
+        "name": "roundcube",
+        "version": "latest-apache",
+        "location": "https://hub.docker.com/r/levtecaccess/roundcubemail",
+        "type": "app"
+    },
+    {
         "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.",
         "repository": "dockerhub",
         "arch": "amd64",
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/app_gitlab.png",
         "displayName": "GitLab",
         "name": "gitlab",
-        "version": "11.4.0",
+        "version": "11.11.3",
         "location": "https://hub.docker.com/r/sameersbn/gitlab",
         "type": "app"
     },
@@ -17,7 +39,7 @@
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/app_redmine.png",
         "displayName": "Redmine",
         "name": "redmine",
-        "version": "3.4.6",
+        "version": "4.0.4",
         "location": "https://hub.docker.com/r/sameersbn/redmine",
         "type": "app"
     },
@@ -28,7 +50,7 @@
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/app_registry.png",
         "displayName": "Registry",
         "name": "registry",
-        "version": "2.6.2",
+        "version": "2.7.1",
         "location": "https://hub.docker.com/_/registry",
         "type": "app"
     },
@@ -61,7 +83,7 @@
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/app_wordpress.png",
         "displayName": "WordPress",
         "name": "wordpress",
-        "version": "4.9.8",
+        "version": "5.2.2",
         "location": "https://hub.docker.com/_/wordpress",
         "type": "app"
     },
@@ -109,7 +131,7 @@
         "arch": "amd64",
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/fedora_icon.png",
         "displayName": "Fedora",
-        "name": "fedora-twentyeight",
+        "name": "fedora-twenty-eight",
         "version": "28",
         "kernelVersion": "4.2.8",
         "location": "http://download.qnap.com/QPKG/container/fedora-twentyeight_28_amd64.tar.gz",
