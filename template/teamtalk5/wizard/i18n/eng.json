@@ -1,0 +1,5 @@
+{
+  "TEAMTALK_NAME": "Bearware TeamTalk5 Server",
+  "TEAMTALK_BASE_PAGE": "Configure service parameters",
+  "TEAMTALK_PORT_DESC": "The TCP/UDP port for the server to broadcast on. Defaults to 8040."
+}

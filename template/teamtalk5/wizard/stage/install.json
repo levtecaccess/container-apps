@@ -1,0 +1,29 @@
+{
+  "api_version": "v1",
+  "title": "{{TEAMTALK_NAME}}",
+  "wizard": [
+    {
+      "title": "{{TEAMTALK_BASE_PAGE}}",
+      "schema": {
+        "port": {
+          "title": "TeamTalk5 Server TCP/UDP Broadcast Port",
+          "type": "integer",
+          "description": "{{TEAMTALK_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        }
+      },
+      "form": [
+        "port"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "port": "services.tt5srv.ports[0]"
+    }
+  }
+}

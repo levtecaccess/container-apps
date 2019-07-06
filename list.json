@@ -1,5 +1,16 @@
 [
     {
+        "description": "TeamTalk is a self-hosted voice conferencing service.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Bearware TeamTalk5 - Voice Conferencing Server",
+        "name": "teamtalk5",
+        "version": "5.3.3",
+        "location": "https://hub.docker.com/r/levtecaccess/tt5srv",
+        "type": "app"
+    },
+    {
         "description": "Jitsi Meet is a voice/video conferencing suite.",
         "repository": "dockerhub",
         "arch": "amd64",
@@ -108,18 +119,6 @@
         "version": "5.2.2",
         "location": "https://hub.docker.com/_/wordpress",
         "type": "app"
-    },
-        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world. This container is configured for accessibility and supports Remote Desktop via RDP.",
-        "repository": "qnap",
-        "inspect": "{}",
-        "arch": "amd64",
-        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/ubuntu_icon.png",
-        "displayName": "Accessible Ubuntu Mate - Remote Desktop",
-        "name": "accessible-ubuntu-bionic",
-        "version": "18.04",
-        "location": "https://raw.githubusercontent.com/levtecaccess/container-apps/lxc-images/accessible-ubuntu-bionic/accessible-ubuntu-bionic_18.04_20190705_amd64.tar.gz",
-        "type": "lxc"
-    },
     {
         "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.",
         "repository": "qnap",
