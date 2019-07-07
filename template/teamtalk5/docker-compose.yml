@@ -4,5 +4,11 @@ services:
 
   tt5srv:
     image: levtecaccess/tt5srv:5.3.3
+    container_name: tt5srv
+    restart: always
     ports:
       - "10333:10333"
+    environment:
+      - TT5_PORT=10333
+    volumes:
+      - ./data/tt5srv:/usr/share/tt5srv # TeamTalk server root directory

@@ -23,7 +23,9 @@
     "type": "yaml",
     "file": "docker-compose.yml",
     "data": {
-      "port": "services.tt5srv.ports[0]"
+      "port": {
+      "services.tt5srv.ports[0]"
+      "services.tt5srv.environment.TT5_PORT
     }
   }
 }
