@@ -1,4 +1,4 @@
-version: "2"
+version: '2'
 
 services:
 
@@ -45,8 +45,8 @@ services:
     read_only: true
     restart: unless-stopped
     ports:
-      - "8065:80"
-      - "8067:443"
+      - 8065:80
+      - 8067:443
     volumes:
       # This directory must have cert files if you want to enable SSL
       - ./volumes/web/cert:/cert:ro

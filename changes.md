@@ -13,3 +13,4 @@ Added the "data" and "data/tt5srv" placeholder directories to the "teamtalk" app
 Added Mattermost Enterprise Edition to the applications list
 Added Mattermost Team Edition to the applications list
 Updated various application-specific resources
+Unified various code assets to improve development standards and code consistancy
