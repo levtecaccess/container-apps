@@ -12,6 +12,7 @@ services:
     env_file:
       - variables.env
     image: jitsi/web
+    restart: unless-stopped
     ports:
       - '${HTTP_PORT}:8000'
       - '${HTTPS_PORT}:44300'
@@ -40,6 +41,7 @@ services:
     env_file:
       - variables.env
     image: jitsi/prosody
+    restart: unless-stopped
     expose:
       - '5222'
       - '5347'
@@ -75,6 +77,7 @@ services:
     env_file:
       - variables.env
         image: jitsi/jicofo
+    restart: unless-stopped
         volumes:
             - ${CONFIG}/jicofo:/config
         environment:
@@ -99,6 +102,7 @@ services:
     env_file:
       - variables.env
         image: jitsi/jvb
+    restart: unless-stopped
         ports:
             - '${JVB_PORT}:${JVB_PORT}/udp'
             - '${JVB_TCP_PORT}:${JVB_TCP_PORT}'
@@ -129,6 +133,7 @@ services:
     env_file:
       - variables.env
         image: jitsi/jigasi
+    restart: unless-stopped
         ports:
             - '${JIGASI_PORT_MIN}-${JIGASI_PORT_MAX}:${JIGASI_PORT_MIN}-${JIGASI_PORT_MAX}/udp'
         volumes:

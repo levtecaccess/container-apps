@@ -1,5 +1,16 @@
 [
     {
+        "description": "Mattermost is a self-hosted, collaborative messaging and file sharing service.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Mattermost",
+        "name": "mattermost",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/levtecaccess/mattermost-app",
+        "type": "app"
+    },
+    {
         "description": "TeamTalk is a self-hosted voice conferencing service.",
         "repository": "dockerhub",
         "arch": "amd64",

@@ -8,3 +8,7 @@ Temporarily disabled the "jitsimeet" application due to various configuration is
 Updated the "teamtalk5" application docker-compose file to enable the application deployment wizard to provide a default service port
 Updated the "teamtalk5" application docker-compose file to expose the TeamTalk5 server root directory as a mounted volume
 Added the "data" and "data/tt5srv" placeholder directories to the "teamtalk" application
+
+2019/07/08
+Added Mattermost to the applications list
+Updated various application-specific resources

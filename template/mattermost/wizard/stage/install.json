@@ -1,0 +1,45 @@
+{
+  "api_version": "v1",
+  "title": "{{MATTERMOST_NAME}}",
+  "wizard": [
+    {
+      "title": "{{MATTERMOST_BASE_PAGE}}",
+      "schema": {
+        "http_port": {
+          "title": "Mattermost HTTP Port",
+          "type": "integer",
+          "description": "{{MATTERMOST_HTTP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        },
+        "https_port": {
+          "title": "Mattermost HTTPS Port",
+          "type": "integer",
+          "description": "{{MATTERMOST_HTTPS_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        }
+      },
+      "form": [
+        "http_port",
+        "https_port"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "http_port": [
+        "services.mattermost-web.ports[0]",
+        "services.mattermost-web.environment.MATTERMOST_HTTP_PORT"
+      ],
+      "https_port": [
+        services.mattermost-web.ports[1]",
+        "services.mattermost-web.environment.MATTERMOST_HTTPS_PORT"
+      ]
+    }
+  }
+}

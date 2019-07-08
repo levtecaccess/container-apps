@@ -5,7 +5,7 @@ services:
   tt5srv:
     image: levtecaccess/tt5srv:5.3.3
     container_name: tt5srv
-    restart: always
+    restart: unless-stopped
     ports:
       - "10333:10333"
     environment:
