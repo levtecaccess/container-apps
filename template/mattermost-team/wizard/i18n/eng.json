@@ -1,0 +1,6 @@
+{
+  "MATTERMOST_NAME": "Mattermost Team Edition",
+  "MATTERMOST_BASE_PAGE": "Configure service parameters",
+  "MATTERMOST_HTTP_PORT_DESC": "The HTTP port for the web server. Defaults to 8075.",
+  "MATTERMOST_HTTPS_PORT_DESC": "The HTTPS port for the web server. Defaults to 8077."
+}

@@ -1,13 +1,24 @@
 [
     {
-        "description": "Mattermost is a self-hosted, collaborative messaging and file sharing service.",
+        "description": "Mattermost Team Edition is a self-hosted, collaborative messaging and file sharing service designed for public use.",
         "repository": "dockerhub",
         "arch": "amd64",
         "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
-        "displayName": "Mattermost",
-        "name": "mattermost",
+        "displayName": "Mattermost Team Edition",
+        "name": "mattermost-team",
         "version": "latest",
-        "location": "https://hub.docker.com/r/levtecaccess/mattermost-app",
+        "location": "https://hub.docker.com/r/levtecaccess/mattermost-team_app",
+        "type": "app"
+    },
+    {
+        "description": "Mattermost Enterprise Edition is a self-hosted, collaborative messaging and file sharing service designed for corporate use.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Mattermost Enterprise Edition",
+        "name": "mattermost-enterprise",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/levtecaccess/mattermost_app",
         "type": "app"
     },
     {

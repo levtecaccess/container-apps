@@ -10,5 +10,6 @@ Updated the "teamtalk5" application docker-compose file to expose the TeamTalk5 
 Added the "data" and "data/tt5srv" placeholder directories to the "teamtalk" application
 
 2019/07/08
-Added Mattermost to the applications list
+Added Mattermost Enterprise Edition to the applications list
+Added Mattermost Team Edition to the applications list
 Updated various application-specific resources

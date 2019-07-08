@@ -20,7 +20,7 @@ services:
     #  - WALE_S3_PREFIX=s3://BUCKET_NAME/PATH
     #  - AWS_REGION=us-east-1
 
-  app:
+  mattermost-app:
     image: levtecaccess/mattermost_app:latest
     container_name: mattermost-app
     restart: unless-stopped
@@ -39,7 +39,7 @@ services:
       # in case your config is not in default location
       # - MM_CONFIG=/mattermost/config/config.json
 
-  web:
+  mattermost-web:
     image: levtecaccess/mattermost_web:latest
     container_name: mattermost-web
     read_only: true
