@@ -32,17 +32,6 @@
         "location": "https://hub.docker.com/r/levtecaccess/tt5srv",
         "type": "app"
     },
-    # {
-        # "description": "Jitsi Meet is a voice/video conferencing suite.",
-        # "repository": "dockerhub",
-        # "arch": "amd64",
-        # "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
-        # "displayName": "Jitsi Meet - Voice/Video Conferencing Suite",
-        # "name": "jitsimeet",
-        # "version": "latest",
-        # "location": "https://hub.docker.com/r/jitsi/web",
-        # "type": "app"
-    # },
     {
         "description": "Squid is a fully featured proxy server featuring a web interface for configuration.",
         "repository": "dockerhub",
