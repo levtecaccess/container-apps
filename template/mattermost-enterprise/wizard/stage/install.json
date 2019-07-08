@@ -33,12 +33,12 @@
     "file": "docker-compose.yml",
     "data": {
       "http_port": [
-        "services.mattermost-web.ports[0]",
-        "services.mattermost-web.environment.MATTERMOST_HTTP_PORT"
+        "services.mattermostweb.ports[0]",
+        "services.mattermostweb.environment.MATTERMOST_HTTP_PORT"
       ],
       "https_port": [
-        services.mattermost-web.ports[1]",
-        "services.mattermost-web.environment.MATTERMOST_HTTPS_PORT"
+        services.mattermostweb.ports[1]",
+        "services.mattermostweb.environment.MATTERMOST_HTTPS_PORT"
       ]
     }
   }

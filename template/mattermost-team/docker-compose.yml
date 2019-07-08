@@ -2,7 +2,7 @@ version: "2"
 
 services:
 
-  mattermost-team-db:
+  mattermostteamdb:
     image: levtecaccess/mattermost-team_db:latest
     container_name: mattermost-team-db
     read_only: true
@@ -20,7 +20,7 @@ services:
     #  - WALE_S3_PREFIX=s3://BUCKET_NAME/PATH
     #  - AWS_REGION=us-east-1
 
-  mattermost-team-app:
+  mattermostteamapp:
     image: levtecaccess/mattermost-team_app:latest
     container_name: mattermost-team-app
     restart: unless-stopped
@@ -39,7 +39,7 @@ services:
       # in case your config is not in default location
       # - MM_CONFIG=/mattermost/config/config.json
 
-  mattermost-team-web:
+  mattermostteamweb:
     image: levtecaccess/mattermost_web:latest
     container_name: mattermost-team-web
     read_only: true
