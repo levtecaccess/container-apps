@@ -44,6 +44,17 @@
         "type": "app"
     },
     {
+        "description": "Mail Server is a fully featured mail server supporting POP3, IMAP and SMTP protocols. This server is suitable for Roundcube.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Mail Server",
+        "name": "mailserver",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/tvial/docker-mailserver",
+        "type": "app"
+    },
+    {
         "description": "Roundcube Advanced is a webmail client supporting POP3, IMAP and SMTP protocols. The user has full control over the mail servers that are used by the client.",
         "repository": "dockerhub",
         "arch": "amd64",

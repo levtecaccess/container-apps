@@ -14,3 +14,7 @@ Added Mattermost Enterprise Edition to the applications list
 Added Mattermost Team Edition to the applications list
 Updated various application-specific resources
 Unified various code assets to improve development standards and code consistancy
+
+2019/07/11
+Added Mail Server to the applications list
+Unified various code assets to improve development standards and code consistancy

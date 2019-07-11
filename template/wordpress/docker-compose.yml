@@ -1,11 +1,15 @@
-wordpress:
-  image: wordpress:4.9.8
-  links:
-    - db:mysql
-  ports:
-    - "10084:80"
+version: '2'
 
-db:
-  image: mariadb:10.2
-  environment:
-    MYSQL_ROOT_PASSWORD: example
+services:
+
+  wordpress:
+    image: wordpress:4.9.8
+    links:
+      - db:mysql
+    ports:
+      - "10084:80"
+
+  db:
+    image: mariadb:10.2
+    environment:
+      MYSQL_ROOT_PASSWORD: example
