@@ -1,0 +1,5 @@
+{
+  "MARIADB_NAME": "MariaDB",
+  "MARIADB_BASE_PAGE": "Configure service parameters",
+  "MARIADB_ROOT_PASSWORD_DESC": "The password to assign to the MariaDB root account. Defaults to password"
+}

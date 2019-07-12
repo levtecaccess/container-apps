@@ -1,5 +1,16 @@
 [
     {
+        "description": "MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL. Being a fork of a leading open source software system, it is notable for being led by the original developers of MySQL, who forked it due to concerns over its acquisition by Oracle. Contributors are required to share their copyright with the MariaDB Foundation.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "MariaDB",
+        "name": "mariadb",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/_/mariadb",
+        "type": "app"
+    },
+    {
         "description": "Mattermost Team Edition is a self-hosted, collaborative messaging and file sharing service designed for public use.",
         "repository": "dockerhub",
         "arch": "amd64",

@@ -1,0 +1,29 @@
+{
+  "api_version": "v1",
+  "title": "{{MARIADB_NAME}}",
+  "wizard": [
+    {
+      "title": "{{MARIADB_BASE_PAGE}}",
+      "schema": {
+        "root_password": {
+          "title": "MariaDB Root Password",
+          "type": "string",
+          "description": "{{MARIADB_ROOT_PASSWORD_DESC}}",
+          "required": true
+        }
+      },
+      "form": [
+        "root_password"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "root_password": [
+        "services.mariadb.environment.ROOT_PASSWORD"
+      ]
+    }
+  }
+}
