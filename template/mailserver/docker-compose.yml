@@ -6,7 +6,7 @@ services:
   mailserver:
     image: tvial/docker-mailserver:latest
     hostname: mail
-    domainname: domain.name.com
+    domainname: yourdomain.com
     container_name: mail
     restart: always
     ports:
@@ -38,11 +38,11 @@ services:
       - NET_ADMIN
       - SYS_PTRACE
     volumes:
-      - ./data/data:/var/mail
+      - ./data/mail:/var/mail
       - ./data/state:/var/mail-state
       # For proper delivery, generate DKIM keys in /srv/mail/setup
       - ./data/setup:/tmp/docker-mailserver
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
       # If you need SSL connection, you can provide your own certificates
-      # - ./certs:/etc/letsencrypt
+      # - ./data/certs:/etc/letsencrypt

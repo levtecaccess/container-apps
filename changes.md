@@ -2,6 +2,8 @@ levtecaccess/container-apps repository changes
 
 2019/07/12
 Added MariaDB to the applications list
+added host and domain configuration to the Mail Server application deployment wizard
+Updated volume configuration for the Mail Server application
 Adjusted the changes file to list changes in reverse-chronological order.
 
 2019/07/11

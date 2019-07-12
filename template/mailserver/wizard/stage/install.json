@@ -1,0 +1,39 @@
+{
+  "api_version": "v1",
+  "title": "{{MAILSERVER_NAME}}",
+  "wizard": [
+    {
+      "title": "{{MAILSERVER_BASE_PAGE}}",
+      "schema": {
+        "hostname": {
+          "title": "Mail Server Host Name",
+          "type": "string",
+          "description": "{{MAILSERVER_HOST_DESC}}",
+          "required": true
+        },
+        "domain": {
+          "title": "Mail Domain",
+          "type": "string",
+          "description": "{{MAILSERVER_DOMAIN_DESC}}",
+          "required": true
+        }
+      },
+      "form": [
+        "hostname",
+        "domain"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "hostname": [
+        "services.mailserver.hostname"
+      ],
+      "domain": [
+        "services.mailserver.domainname"
+      ]
+    }
+  }
+}

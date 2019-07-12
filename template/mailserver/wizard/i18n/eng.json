@@ -1,0 +1,6 @@
+{
+  "MAILSERVER_NAME": "Mail Server",
+  "MAILSERVER_BASE_PAGE": "Configure service parameters",
+  "MAILSERVER_HOST_DESC": "The host name of the mail server. Defaults to mail",
+  "MAILSERVER_DOMAIN_DESC": "The domain name of the mail server. Defaults to yourdomain.com"
+}
