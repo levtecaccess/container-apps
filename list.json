@@ -1,5 +1,16 @@
 [
     {
+        "description": "Docker-QDK2 is a container-based development suite for QNAP QTS packages.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Docker-QDK2",
+        "name": "docker-qdk2",
+        "version": "0.26",
+        "location": "https://hub.docker.com/r/levtecaccess/docker-qdk2",
+        "type": "app"
+    },
+    {
         "description": "MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL. Being a fork of a leading open source software system, it is notable for being led by the original developers of MySQL, who forked it due to concerns over its acquisition by Oracle. Contributors are required to share their copyright with the MariaDB Foundation.",
         "repository": "dockerhub",
         "arch": "amd64",

@@ -1,0 +1,5 @@
+{
+  "DOCKER-QDK2_NAME": "Docker-QDK2",
+  "DOCKER-QDK2_BASE_PAGE": "Configure service parameters",
+  "DOCKER-QDK2_SSH_PORT_DESC": "The SSH connection port for the SSH server. Defaults to 8022."
+}

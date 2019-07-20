@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  docker-qdk2:
+    image: levtecaccess/docker-qdk2:0.26
+    ports:
+      - 8022:22
+    volumes:
+      - ./data/src:/src

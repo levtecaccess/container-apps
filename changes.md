@@ -1,5 +1,8 @@
 levtecaccess/container-apps repository changes
 
+2019/07/20
+Added Docker-QDK2 to the applications list
+
 2019/07/12
 Added MariaDB to the applications list
 added host and domain configuration to the Mail Server application deployment wizard
