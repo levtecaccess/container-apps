@@ -11,7 +11,7 @@ services:
       - /etc/docker/tls/server-key.pem:/etc/ssl/private/docker-registry
 
   app:
-    image: registry:2.6.2
+    image: registry:2.7.1
     volumes:
       - registry-data:/data/registry
     environment:

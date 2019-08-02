@@ -1,5 +1,11 @@
 levtecaccess/container-apps repository changes
 
+2019/08/02
+Added Plex Media Server to the applications list
+
+2019/07/21
+Updated various resources
+
 2019/07/20
 Added Docker-QDK2 to the applications list
 

@@ -1,5 +1,16 @@
 [
     {
+        "description": "Plex Media Server is an advanced multimedia server.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/1.10/images/debian_icon.png",
+        "displayName": "Plex Media Server",
+        "name": "plex",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/plexinc/pms-docker",
+        "type": "app"
+    },
+    {
         "description": "Docker-QDK2 is a container-based development suite for QNAP QTS packages.",
         "repository": "dockerhub",
         "arch": "amd64",
@@ -128,7 +139,7 @@
         "displayName": "Registry",
         "name": "registry",
         "version": "2.7.1",
-        "location": "https://hub.docker.com/_/registry",
+        "location": "https://hub.docker.com/r/_/registry",
         "type": "app"
     },
     {
