@@ -5,6 +5,12 @@
     {
       "title": "{{HUMHUB_BASE_PAGE}}",
       "schema": {
+        "hostname": {
+          "title": "HumHub Server Hostname",
+          "type": "string",
+          "description": "{{HUMHUB_HOSTNAME_DESC}}",
+          "required": true
+        },
         "http_port": {
           "title": "HumHub HTTP Port",
           "type": "integer",
@@ -23,6 +29,7 @@
         }
       },
       "form": [
+        "hostname",
         "http_port",
         "https_port"
       ]
@@ -32,6 +39,7 @@
     "type": "yaml",
     "file": "docker-compose.yml",
     "data": {
+      "hostname": "services.humhub.environment.HUMHUB_HOST",
       "http_port": "services.humhub.ports[0]",
       "https_port": "services.humhub.ports[1]"
     }

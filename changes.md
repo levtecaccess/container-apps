@@ -1,6 +1,10 @@
 levtecaccess/container-apps repository changes
 
 2019/08/04
+Updated the HumHub Social Networking Platform application deployment wizard to enable specifying the server hostname
+Fixed a service port definition issue in the HumHub Social Networking Platform application docker-compose file
+
+2019/08/04
 Added HumHub Social Networking Platform to the applications list
 Fixed various incorrect web based resource locations related to application icons
 Fixed various code errors in the Jitsi Meet application docker-compose file
