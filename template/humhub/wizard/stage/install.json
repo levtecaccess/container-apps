@@ -1,0 +1,39 @@
+{
+  "api_version": "v1",
+  "title": "{{HUMHUB_NAME}}",
+  "wizard": [
+    {
+      "title": "{{HUMHUB_BASE_PAGE}}",
+      "schema": {
+        "http_port": {
+          "title": "HumHub HTTP Port",
+          "type": "integer",
+          "description": "{{HUMHUB_HTTP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        },
+        "https_port": {
+          "title": "HumHub Secure HTTP Port",
+          "type": "integer",
+          "description": "{{HUMHUB_HTTPS_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        }
+      },
+      "form": [
+        "http_port",
+        "https_port"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "http_port": "services.humhub.ports[0]",
+      "https_port": "services.humhub.ports[1]"
+    }
+  }
+}

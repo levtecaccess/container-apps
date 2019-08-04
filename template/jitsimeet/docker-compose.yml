@@ -10,7 +10,7 @@ services:
   # Frontend
   web:
     env_file:
-      - ./variables.env
+      - ./variables.yml
     image: jitsi/web
     restart: unless-stopped
     ports:
@@ -39,7 +39,7 @@ services:
   # XMPP server
   prosody:
     env_file:
-      - ./variables.env
+      - ./variables.yml
     image: jitsi/prosody
     restart: unless-stopped
     expose:
@@ -75,7 +75,7 @@ services:
     # Focus component
     jicofo:
     env_file:
-      - ./variables.env
+      - ./variables.yml
         image: jitsi/jicofo
     restart: unless-stopped
         volumes:
@@ -100,7 +100,7 @@ services:
     # Video bridge
     jvb:
     env_file:
-      - ./variables.env
+      - ./variables.yml
         image: jitsi/jvb
     restart: unless-stopped
         ports:
@@ -131,7 +131,7 @@ services:
     # SIP gateway (audio)
     jigasi:
     env_file:
-      - ./variables.env
+      - ./variables.yml
         image: jitsi/jigasi
     restart: unless-stopped
         ports:

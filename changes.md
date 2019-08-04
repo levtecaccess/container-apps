@@ -1,5 +1,11 @@
 levtecaccess/container-apps repository changes
 
+2019/08/04
+Added HumHub Social Networking Platform to the applications list
+Fixed various incorrect web based resource locations related to application icons
+Fixed various code errors in the Jitsi Meet application docker-compose file
+Updated the description for the Plex Media Server application
+
 2019/08/02
 Added Plex Media Server to the applications list
 

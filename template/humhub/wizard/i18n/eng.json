@@ -1,0 +1,6 @@
+{
+  "HUMHUB_NAME": "HumHub",
+  "HUMHUB_BASE_PAGE": "Configure service parameters",
+  "HUMHUB_HTTP_PORT_DESC": "The HTTP port for the web server. Defaults to 8010.",
+  "HUMHUB_HTTPS_PORT_DESC": "The secure HTTP port for the web server. Defaults to 8011."
+}
