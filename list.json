@@ -1,5 +1,16 @@
 [
     {
+        "description": "FreePBX is a web-based open source GUI (graphical user interface) that controls and manages Asterisk (PBX), an open source communication server.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/3.0/images/freepbx_icon.png",
+        "displayName": "FreePBX Server",
+        "name": "freepbx",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/tiredofit/freepbx",
+        "type": "app"
+    },
+    {
         "description": "HumHub is a popular open-source private social networking platform written in PHP.",
         "repository": "dockerhub",
         "arch": "amd64",

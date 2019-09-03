@@ -1,5 +1,13 @@
 levtecaccess/container-apps repository changes
 
+
+2019-09-03
+Fixed various bugs in the FreePBX Server deployment wizard
+Various additional updates
+
+2019/08/07
+Added FreePBX Server to the applications list
+
 2019/08/04
 Updated the HumHub Social Networking Platform application deployment wizard to enable specifying the server hostname
 Fixed a service port definition issue in the HumHub Social Networking Platform application docker-compose file

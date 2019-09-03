@@ -1,0 +1,65 @@
+{
+  "api_version": "v1",
+  "title": "{{FREEPBX_NAME}}",
+  "wizard": [
+    {
+      "title": "{{FREEPBX_BASE_PAGE}}",
+      "schema": {
+        "hostname": {
+          "title": "FreePBX Server Hostname",
+          "type": "string",
+          "pattern": "^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\\-]*[a-zA-Z0-9])\\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\\-]*[A-Za-z0-9])$",
+          "description": "{{FREEPBX_HOSTNAME_DESC}}",
+          "validationMessage": "{{FREEPBX_HOST_MSG}}",
+          "required": true
+        },
+        "http_port": {
+          "title": "FreePBX HTTP Port",
+          "type": "integer",
+          "description": "{{FreePBX_HTTP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        },
+        "https_port": {
+          "title": "FreePBX Secure HTTP Port",
+          "type": "integer",
+          "description": "{{FREEPBX_HTTPS_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        },
+        "sip_port": {
+          "title": "FreePBX SIP Transport Port",
+          "type": "integer",
+          "description": "{{FREEPBX_SIP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        }
+      },
+      "form": [
+        "http_port",
+        "https_port",
+        "sip_port"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "http_port": [
+        "services.freepbx-server.ports[0]",
+        "services.freepbx-server.environment.HTTP_PORT"
+      ],
+      "https_port": [
+        "services.freepbx-server.ports[1]",
+        "services.freepbx-server.environment.HTTPS_PORT"
+      ],
+      "sip_port": [
+        "services.freepbx-server.ports[2]"
+      ]
+    }
+  }
+}

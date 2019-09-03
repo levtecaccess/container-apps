@@ -1,0 +1,9 @@
+{
+  "FREEPBX_NAME": "FreePBX Server",
+  "FREEPBX_BASE_PAGE": "Configure service parameters",
+  "FREEPBX_HOSTNAME_DESC": "The host name to apply to the FreePBX server. Defaults to pbxserver.yourdomain.com",
+  "FREEPBX_HOST_MSG": "The host name must start and end with a letter or number and can only contain: a-z, A-Z, 0-9, dot (.), or dash (-)",
+  "FREEPBX_HTTP_PORT_DESC": "The HTTP port for the web server. Defaults to 8070.",
+  "FREEPBX_HTTPS_PORT_DESC": "The secure HTTP port for the web server. Defaults to 8071.",
+  "FREEPVX_SIP_PORT_DESC": "The SIP port for the PBX server. Defaults to 5060."
+}
