@@ -39,6 +39,7 @@
         }
       },
       "form": [
+        "hostname",
         "http_port",
         "https_port",
         "sip_port"
@@ -49,13 +50,16 @@
     "type": "yaml",
     "file": "docker-compose.yml",
     "data": {
+      "hostname": [
+        "services.freepbx-server.environment.VIRTUAL_HOST"
+      ],
       "http_port": [
         "services.freepbx-server.ports[0]",
-        "services.freepbx-server.environment.HTTP_PORT"
+        "services.freepbx-server.environment.VIRTUAL_PORT"
       ],
       "https_port": [
         "services.freepbx-server.ports[1]",
-        "services.freepbx-server.environment.HTTPS_PORT"
+        "services.freepbx-server.environment.HVIRTUAL_PORT2"
       ],
       "sip_port": [
         "services.freepbx-server.ports[2]"
