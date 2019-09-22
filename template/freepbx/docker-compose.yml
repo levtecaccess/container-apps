@@ -29,6 +29,7 @@ services:
     environment: 
       - VIRTUAL_HOST=hostname.example.com
       - VIRTUAL_NETWORK=freepbx-proxy
+      - VIRTUAL_PROTO=http
       # - VIRTUAL_PROTO=https
       - VIRTUAL_PORT=8070
       ## If you want to connect to the SSL Enabled Container, rename the below variable

@@ -10,13 +10,13 @@
           "type": "string",
           "pattern": "^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\\-]*[a-zA-Z0-9])\\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\\-]*[A-Za-z0-9])$",
           "description": "{{FREEPBX_HOSTNAME_DESC}}",
-          "validationMessage": "{{FREEPBX_HOST_MSG}}",
+          "validationMessage": "{{FREEPBX_HOSTNAME_MSG}}",
           "required": true
         },
         "http_port": {
           "title": "FreePBX HTTP Port",
           "type": "integer",
-          "description": "{{FreePBX_HTTP_PORT_DESC}}",
+          "description": "{{FREEPBX_HTTP_PORT_DESC}}",
           "minimum": 1,
           "maximum": 65535,
           "required": true

@@ -1,6 +1,9 @@
 levtecaccess/container-apps repository changes
 
 
+2019-09-22
+Fixed various bugs in the FreePBX Server deployment wizard
+
 2019-09-19
 Fixed various bugs in the FreePBX Server deployment wizard
 
