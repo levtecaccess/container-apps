@@ -1,6 +1,9 @@
 levtecaccess/container-apps repository changes
 
 
+2019-10-29
+Completely re-built the FreePBX application
+
 2019-09-22
 Fixed various bugs in the FreePBX Server deployment wizard
 
