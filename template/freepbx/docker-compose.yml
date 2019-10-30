@@ -4,7 +4,6 @@ services:
 
   freepbx-server:
     container_name: freepbx-server
-    build: .
     image: flaviostutz/freepbx:14.0
     network_mode: host
     restart: always
