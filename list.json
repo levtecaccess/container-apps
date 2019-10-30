@@ -6,8 +6,8 @@
         "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/3.0/images/freepbx_icon.png",
         "displayName": "FreePBX Server",
         "name": "freepbx",
-        "version": "latest",
-        "location": "https://hub.docker.com/r/tiredofit/freepbx",
+        "version": "14.0",
+        "location": "https://hub.docker.com/r/flaviostutz/freepbx",
         "type": "app"
     },
     {
