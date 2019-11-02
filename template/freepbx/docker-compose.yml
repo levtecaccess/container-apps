@@ -3,17 +3,18 @@ version: '3.3'
 services:
 
   freepbx-server:
-    container_name: freepbx-server
-    image: flaviostutz/freepbx:14.0
-    network_mode: host
+    image: flaviostutz/freepbx:14.1.1
     restart: always
     ports:
       - 8070:80
+      - 8071:443
       - 5060:5060
     volumes:
       - freepbx-backup:/backup
       - freepbx-recordings:/var/spool/asterisk/monitor
+      - apache2-config:/etc/apache2
 
 volumes:
   freepbx-backup:
   freepbx-recordings:
+  apache2-config:

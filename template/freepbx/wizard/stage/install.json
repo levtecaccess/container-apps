@@ -13,6 +13,14 @@
           "maximum": 65535,
           "required": true
         },
+        "https_port": {
+          "title": "FreePBX Secure HTTP Port",
+          "type": "integer",
+          "description": "{{FREEPBX_HTTPS_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        },
         "sip_port": {
           "title": "FreePBX SIP Transport Port",
           "type": "integer",
@@ -24,6 +32,7 @@
       },
       "form": [
         "http_port",
+        "https_port",
         "sip_port"
       ]
     }
@@ -35,8 +44,11 @@
       "http_port": [
         "services.freepbx-server.ports[0]"
       ],
-      "sip_port": [
+      "https_port": [
         "services.freepbx-server.ports[1]"
+      ],
+      "sip_port": [
+        "services.freepbx-server.ports[2]"
       ]
     }
   }
