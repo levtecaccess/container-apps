@@ -9,12 +9,18 @@ services:
       - 8070:80
       - 8071:443
       - 5060:5060
+      - 5160:5160
+      - 18000-18100:18000-18100/udp
     volumes:
       - freepbx-backup:/backup
+      - freepbx-logs:/var/log/asterisk
       - freepbx-recordings:/var/spool/asterisk/monitor
+      - freepbx-www:/var/www/html
       - apache2-config:/etc/apache2
 
 volumes:
   freepbx-backup:
+  freepbx-logs:
   freepbx-recordings:
+  freepbx-www:
   apache2-config:

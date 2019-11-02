@@ -3,7 +3,7 @@
   "title": "{{FREEPBX_NAME}}",
   "wizard": [
     {
-      "title": "{{FREEPBX_BASE_PAGE}}",
+      "title": "{{FREEPBX_WEB_SERVER_PAGE}}",
       "schema": {
         "http_port": {
           "title": "FreePBX HTTP Port",
@@ -20,6 +20,23 @@
           "minimum": 1,
           "maximum": 65535,
           "required": true
+        }
+      },
+      "form": [
+        "http_port",
+        "https_port",
+      ]
+    },
+    {
+      "title": "{{FREEPBX_PBX_SERVER_PAGE}}",
+      "schema": {
+        "pjsip_port": {
+          "title": "FreePBX PJSIP Transport Port",
+          "type": "integer",
+          "description": "{{FREEPBX_PJSIP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
         },
         "sip_port": {
           "title": "FreePBX SIP Transport Port",
@@ -31,8 +48,7 @@
         }
       },
       "form": [
-        "http_port",
-        "https_port",
+        "pjsip_port",
         "sip_port"
       ]
     }
@@ -47,8 +63,11 @@
       "https_port": [
         "services.freepbx-server.ports[1]"
       ],
-      "sip_port": [
+      "pjsip_port": [
         "services.freepbx-server.ports[2]"
+      ],
+      "sip_port": [
+        "services.freepbx-server.ports[3]"
       ]
     }
   }
