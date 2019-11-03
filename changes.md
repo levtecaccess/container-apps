@@ -1,6 +1,10 @@
 levtecaccess/container-apps repository changes
 
 
+2019-11-03
+Minor updates to the FreePBX deployment wizard
+Removed unnecessary data from the repository
+
 2019-11-02
 Updated the version of the FreePBX application to v14.1.1
 Changed the network mode of the FreePBX application

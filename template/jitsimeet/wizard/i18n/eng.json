@@ -1,6 +1,0 @@
-{
-  "JITSIMEET_NAME": "Jitsi Meet - Conference Suite",
-  "JITSIMEET_BASE_PAGE": "Configure Common Jitsi Meet Service Parameters",
-  "JITSIMEET_HTTP_PORT_DESC": "The HTTP port for the Jitsi Meet server. Defaults to 8050",
-  "JITSIMEET_HTTPS_PORT_DESC": "The HTTPS port for the Jitsi Meet server. Defaults to 8051"
-}
