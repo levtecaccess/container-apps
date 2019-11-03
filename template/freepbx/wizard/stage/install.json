@@ -59,7 +59,7 @@
       "pjsip_port": [
         "services.freepbx-server.ports[2]"
       ],
-      "pjsip_port": [
+      "sip_port": [
         "services.freepbx-server.ports[3]"
       ]
     }
