@@ -20,16 +20,7 @@
           "minimum": 1,
           "maximum": 65535,
           "required": true
-        }
-      },
-      "form": [
-        "http_port",
-        "https_port"
-      ]
-    },
-    {
-      "title": "{{FREEPBX_PBX_SERVER_PAGE}}",
-      "schema": {
+        },
         "pjsip_port": {
           "title": "FreePBX PJSIP Transport Port",
           "type": "integer",
@@ -48,10 +39,12 @@
         }
       },
       "form": [
+        "http_port",
+        "https_port",
         "pjsip_port",
         "sip_port"
       ]
-    }
+    },
   ],
   "binding": {
     "type": "yaml",
