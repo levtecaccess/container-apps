@@ -1,9 +1,8 @@
 {
   "FREEPBX_NAME": "FreePBX Server",
-  "FREEPBX_WEB_SERVER_PAGE": "Configure FreePBX web administration service access ports",
+  "FREEPBX_BASE_PAGE": "Configure service parameters",
   "FREEPBX_HTTP_PORT_DESC": "The HTTP port for the web server. Defaults to 8070.",
   "FREEPBX_HTTPS_PORT_DESC": "The secure HTTP port for the web server. Defaults to 8071.",
-  "FREEPBX_PBX_SERVER_PAGE": "Configure Asterisk PBX server communication ports",
-  "FREEPVX_PJSIP_PORT_DESC": "The PJSIP transport port for the Asterisk PBX server. Defaults to 5060.",
-  "FREEPVX_SIP_PORT_DESC": "The SIP transport port for the Asterisk PBX server. Defaults to 5160."
+  "FREEPVX_PJSIP_PORT_DESC": "The PJSIP transport port for the PBX server. Defaults to 5060.",
+  "FREEPVX_SIP_PORT_DESC": "The SIP transport port for the PBX server. Defaults to 5160."
 }

@@ -3,7 +3,7 @@
   "title": "{{FREEPBX_NAME}}",
   "wizard": [
     {
-      "title": "{{FREEPBX_WEB_SERVER_PAGE}}",
+      "title": "{{FREEPBX_BASE_PAGE}}",
       "schema": {
         "http_port": {
           "title": "FreePBX HTTP Port",
@@ -41,10 +41,10 @@
       "form": [
         "http_port",
         "https_port",
-        "pjsip_port",
-        "sip_port"
+        "sip_port",
+        "pjsip_port"
       ]
-    },
+    }
   ],
   "binding": {
     "type": "yaml",
@@ -59,7 +59,7 @@
       "pjsip_port": [
         "services.freepbx-server.ports[2]"
       ],
-      "sip_port": [
+      "pjsip_port": [
         "services.freepbx-server.ports[3]"
       ]
     }
