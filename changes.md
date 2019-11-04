@@ -1,11 +1,16 @@
 levtecaccess/container-apps repository changes
 
 
-2019-11-03
+2019/11/04
+Updated the FreePBX application to support secure PJSIP and SIP transport
+Updated the FreePBX application port definitions to use UDP where appropriate
+Updated the RTP port range for the FreePBX application to use the correct default range
+
+2019/11/03
 Minor updates to the FreePBX deployment wizard
 Removed unnecessary data from the repository
 
-2019-11-02
+2019/11/02
 Updated the version of the FreePBX application to v14.1.1
 Changed the network mode of the FreePBX application
 Added secure HTTP support to the FreePBX application
@@ -13,19 +18,19 @@ Added PJSIP support to the FreePBX application
 Redesigned the FreePBX application deployment wizard to provide multiple configuration pages for application information, web administration port configuration and PBX server port configuration
 Updated the FreePBX application description in the container application repository
 
-2019-10-30
+2019/10/30
 Minor updates to the FreePBX application docker-compose file
 
-2019-10-29
+2019/10/29
 Completely re-built the FreePBX application
 
-2019-09-22
+2019/09/22
 Fixed various bugs in the FreePBX Server deployment wizard
 
-2019-09-19
+2019/09/19
 Fixed various bugs in the FreePBX Server deployment wizard
 
-2019-09-03
+2019/09/03
 Fixed various bugs in the FreePBX Server deployment wizard
 Various additional updates
 

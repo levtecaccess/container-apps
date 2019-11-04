@@ -29,10 +29,26 @@
           "maximum": 65535,
           "required": true
         },
+        "secure_pjsip_port": {
+          "title": "FreePBX Secure PJSIP Transport Port",
+          "type": "integer",
+          "description": "{{FREEPBX_SECURE_PJSIP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        },
         "sip_port": {
           "title": "FreePBX SIP Transport Port",
           "type": "integer",
           "description": "{{FREEPBX_SIP_PORT_DESC}}",
+          "minimum": 1,
+          "maximum": 65535,
+          "required": true
+        },
+        "secure_sip_port": {
+          "title": "FreePBX Secure SIP Transport Port",
+          "type": "integer",
+          "description": "{{FREEPBX_SECURE_SIP_PORT_DESC}}",
           "minimum": 1,
           "maximum": 65535,
           "required": true
@@ -41,8 +57,10 @@
       "form": [
         "http_port",
         "https_port",
+        "pjsip_port",
+        "secure_pjsip_port",
         "sip_port",
-        "pjsip_port"
+        "secure_sip_port"
       ]
     }
   ],
@@ -59,8 +77,14 @@
       "pjsip_port": [
         "services.freepbx-server.ports[2]"
       ],
-      "sip_port": [
+      "secure_pjsip_port": [
         "services.freepbx-server.ports[3]"
+      ],
+      "sip_port": [
+        "services.freepbx-server.ports[4]"
+      ],
+      "secure_sip_port": [
+        "services.freepbx-server.ports[5]"
       ]
     }
   }

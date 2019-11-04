@@ -4,5 +4,7 @@
   "FREEPBX_HTTP_PORT_DESC": "The HTTP port for the web server. Defaults to 8070.",
   "FREEPBX_HTTPS_PORT_DESC": "The secure HTTP port for the web server. Defaults to 8071.",
   "FREEPVX_PJSIP_PORT_DESC": "The PJSIP transport port for the PBX server. Defaults to 5060.",
-  "FREEPVX_SIP_PORT_DESC": "The SIP transport port for the PBX server. Defaults to 5160."
+  "FREEPVX_SECURE_PJSIP_PORT_DESC": "The secure PJSIP transport port for the PBX server. Defaults to 5061.",
+  "FREEPVX_SIP_PORT_DESC": "The SIP transport port for the PBX server. Defaults to 5160.",
+  "FREEPVX_SECURE_SIP_PORT_DESC": "The secure SIP transport port for the PBX server. Defaults to 5161."
 }
