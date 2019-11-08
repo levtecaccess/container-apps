@@ -1,6 +1,12 @@
 levtecaccess/container-apps repository changes
 
 
+2019/11/08
+Added a standalone version of the FreePBX Server application to help with complex NAT configurations, exposed as a physical machine on the network
+Updated the description of the FreePBX Server application provided in the deployment wizard
+Added various missing resources for various applications
+Removed unnecessary data from the repository
+
 2019/11/04
 Updated the FreePBX application to support secure PJSIP and SIP transport
 Updated the FreePBX application port definitions to use UDP where appropriate

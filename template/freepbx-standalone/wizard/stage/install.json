@@ -1,0 +1,29 @@
+{
+  "api_version": "v1",
+  "title": "{{FREEPBX_NAME}}",
+  "wizard": [
+    {
+      "title": "{{FREEPBX_BASE_PAGE}}",
+      "schema": {
+        "hostname": {
+          "title": "FreePBX Hostname",
+          "type": "string",
+          "description": "{{FREEPBX_HOSTNAME_DESC}}",
+          "required": true
+        }
+      },
+      "form": [
+        "hostname"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "hostname": [
+        "services.freepbx-server.container_name"
+      ]
+    }
+  }
+}

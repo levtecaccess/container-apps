@@ -1,0 +1,5 @@
+{
+  "FREEPBX_NAME": "FreePBX Server",
+  "FREEPBX_BASE_PAGE": "Configure service parameters",
+  "FREEPBX_HOSTNAME_DESC": "The hostname for the container. Defaults to pbx-server."
+}

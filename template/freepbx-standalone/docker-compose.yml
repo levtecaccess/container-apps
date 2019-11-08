@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+
+  freepbx-server:
+    image: flaviostutz/freepbx:14.1.1
+    container_name: freepbx-server
+    restart: always
+    network_mode: "bridge"
+    volumes:
+      - freepbx-backup:/backup
+      - freepbx-logs:/var/log/asterisk
+      - freepbx-recordings:/var/spool/asterisk/monitor
+      - freepbx-www:/var/www/html
+      - apache2-config:/etc/apache2
+
+volumes:
+  freepbx-backup:
+  freepbx-logs:
+  freepbx-recordings:
+  freepbx-www:
+  apache2-config:
