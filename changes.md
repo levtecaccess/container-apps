@@ -1,6 +1,10 @@
 levtecaccess/container-apps repository changes
 
 
+2020/02/07
+Updated the application repository
+
+
 2019/11/08
 Added a standalone version of the FreePBX Server application to help with complex NAT configurations, exposed as a physical machine on the network
 Updated the description of the FreePBX Server application provided in the deployment wizard
