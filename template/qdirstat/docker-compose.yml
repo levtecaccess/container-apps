@@ -1,0 +1,9 @@
+version: '3'
+services:
+  qdirstat:
+    image: jlesage/qdirstat:1.1.1
+    ports:
+      - "5800:5800"
+    volumes:
+      - "/share/Container/qdirstat:/config:rw"
+      - "/share/CACHEDEV1_DATA:/storage:ro"

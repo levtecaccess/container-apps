@@ -1,5 +1,16 @@
 [
     {
+        "description": "Qdirstat is a tool for monitoring storage.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/levtecaccess/container-apps/3.0/images/qdirstat_icon.png",
+        "displayName": "Qdirstat",
+        "name": "qdirstat",
+        "version": "1.1.1",
+        "location": "https://hub.docker.com/r/jlesage/qdirstat",
+        "type": "app"
+    },
+    {
         "description": "FreePBX 14 is a web-based open source GUI that controls and manages the Asterisk 16 PBX Server, an open source VoIP communications server.",
         "repository": "dockerhub",
         "arch": "amd64",

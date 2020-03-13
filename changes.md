@@ -1,6 +1,11 @@
 levtecaccess/container-apps repository changes
 
 
+2020/03/13
+Added qdirstat to the applications list
+Removed various unnecessary resources
+
+
 2020/02/07
 Updated the application repository
 
